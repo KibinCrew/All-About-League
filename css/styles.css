@@ -1,0 +1,1057 @@
+/* VARIABLES FOR FONT AND COLOR */
+:root{
+    --text-gold: #F49E1E;
+    --blue: rgb(21, 41, 112);
+    --white: white;
+    --black: black;
+    --red: rgb(210, 43, 43);
+    --saira-text: 'Saira Condensed', sans-serif;
+    --inter-text: 'Inter', sans-serif;
+    --gradeint: linear-gradient(to bottom, rgba(21, 41, 112)0%, white 100%) no-repeat;
+}
+
+/* HTML RESET */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* DESKTOP VIEWPORT */
+    .mobile-nav{
+        display: none;
+    }
+
+    /* BODY STYLES*/
+    .tablet-desktop{
+        background: var(--gradeint)
+    }
+
+    /* HEADER STYLES */
+    header{
+        position: static;
+        background-size: fill;
+        height: 195px;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    }
+
+    header, footer{
+        background-color: var(--blue);
+        width: 100%;
+    }
+
+    #header-img img{
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 30px;
+    }
+
+    header img{
+        height: auto;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .logo-header{
+        padding: auto;
+        position: relative;
+    }
+
+    /* NAVBAR STYLES */
+    .desktop-navbar{
+        float: right;
+    }
+
+    li {
+        list-style: none;
+        padding: 8px 12px;
+    }
+
+    .desktop-navbar ul li a{
+        text-decoration: none;
+        padding: 19px;
+        width: auto;
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .desktop-navbar ul li a:hover{
+        background-color: var(--text-gold);
+        color: var(--blue);
+        transition: .6s;
+    }
+
+    nav ul li{
+        border: none;
+        display: inline-block;
+    }
+
+    .desktop-navbar a{
+        color: var(--text-gold);
+        font-family: var(--saira-text);
+        font-weight: bold;
+    }
+
+    /* PLAY-BUTTON STYLES */
+
+    .desktop-navbar button{
+        font-family: var(--saira-text);
+        font-weight: bold;
+        color: var(--blue);
+    }
+
+    /* TEXT STYLES */
+    .league{
+    color: var(--text-gold);
+    }
+
+    #sample{
+        color: var(--text-gold);
+        font-family: var(--saira-text);
+        font-size: 5em;
+        text-align: center;
+    }
+
+    .gold-header{
+        color: var(--text-gold);
+    }
+
+    #favorite{
+        color: var(--text-gold);
+    }
+
+    /* STYLES FOR MAIN CONTENT IMAGES */
+    .lanes{
+        width: 400px;
+        height: 340px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .champs{
+        width: 400px;
+        height: 340px;
+        float: right;
+        margin-left: 20px;
+    }
+
+    /* STYLES FOR VIDEO */
+    .sample-vid{
+        display: block;
+        margin: auto;
+    }
+
+    /* MAIN CONTENT STYLES */
+    main{
+        max-height: 100%;
+    }
+
+    .content-desktop{
+        padding: 10%;
+    }
+
+    #content-1{
+        margin: 1px auto;
+        margin-bottom: 100px;
+        width: 90%;
+    }
+
+    .what{
+        color: var(--black);
+        font-family: var(--saira-text);
+        font-weight: bolder;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    #info-1{
+        font-family: var(--inter-text);
+        font-size: 25px;
+    }
+
+    .content-2{
+        margin: 1px auto;
+        margin-bottom: 60px;
+        width: 90%;
+    }
+
+    .pool{
+        color: var(--black);
+        font-family: var(--saira-text);
+        font-weight: bolder;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    #info-2{
+        font-family: var(--inter-text);
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .content-2 dt dd{
+        text-align: right;
+    }
+    
+    /* STYLES FOR TABLE */
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    caption{
+        color: var(--black);
+        font-family: var(--saira-text);
+        font-weight: bolder;
+        font-size: 4em;
+    }
+
+    th{
+        height: 100px;
+        color: var(--text-gold);
+        font-family: var(--inter-text);
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    td{
+        height: 100px;
+        width: 380px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: var(--inter-text);
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    /* FOOTER STYLES */
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 120px;
+    }
+
+    footer h1{
+        margin-top: 10px;
+        text-align: left;
+        padding-left: 14%;
+        font-family: var(--saira-text);
+        font-size: 40px;
+        font-weight: bolder;
+        color: white;
+    }
+
+    .sett{
+        color: var(--text-gold);
+    }
+
+    .socials{
+        float: right;
+        padding-right: 14%;
+    }
+
+    footer p{
+        margin-top: 8px;
+        color: var(--white);
+        font-family: var(--saira-text);
+        font-weight: bold;
+    }
+
+    /* FOOTER IMAGES STYLES */
+    footer img{
+        max-width: 50px;
+        max-height: 50px;
+        text-align: right;
+        margin-top: 25px;
+    }
+
+    /* ABOUT US STYLES */
+    #about-us{
+        text-align: center;
+        font-family: var(--saira-text);
+        font-size: 100px;
+        font-weight: bolder;
+        color: var(--text-gold);
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .header-about{
+        font-family: var(--saira-text);
+        margin-bottom: 10px;
+        color: var(--blue);
+    }
+
+    .purpose, .updates, .contacts{
+        text-align: center;
+        margin-top: 30px;
+        padding-left: 14%;
+        padding-right: 14%;
+        font-family: var(--inter-text);
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .contacts{
+        margin-bottom: 50px;
+    }
+
+    /* FORM STYLES */
+    form{
+        margin-bottom: 25%;
+        font-family: var(--saira-text);
+        font-weight: bold;
+    }
+
+    #form-header{
+        color: var(--text-gold);
+        font-weight: bold; 
+        font-size: 40px;   
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .q1, #q2{
+        color: var(--blue);
+        margin-bottom: 20px;
+    }
+
+    #radio{
+        text-align: center;
+        float: left;
+        padding-left: 20%;
+    }
+
+    #text{
+        float: right;
+        padding-right: 15%;
+    }
+
+    #text-box{
+        resize: both;
+        max-height: 200px;
+        max-width: 643px;
+        overflow: auto;
+        text-align: center;
+    }
+
+    #submit-reset{
+        text-align: center;
+        margin-top: 120px;
+        margin-right: 10px;
+    }
+
+    /* OTHER PAGE STYLES */
+    #other-header{
+        text-align: center;
+        margin: 20px auto;
+        font-family: var(--saira-text);
+        color: var(--text-gold);
+    }
+
+    #lol-other{
+        margin: auto;
+        margin-bottom: 30px;
+        display: block;
+        height: 400px;
+    }
+
+    #valorant{
+        margin: auto;
+        margin-bottom: 30px;
+        display: block;
+        height: 400px;
+    }
+
+    #tft{
+        margin: auto;
+        margin-bottom: 30px;
+        display: block;
+        height: 400px;
+    }
+
+    #rune{
+        margin: auto;
+        margin-bottom: 150px;
+        display: block;
+        height: 400px;
+    }
+
+    /* TABLET VIEWPORT */
+    @media screen and (max-width: 1063px), print{
+        .mobile-nav{
+            display: none;
+        }
+
+        .tablet-desktop{
+            background: var(--gradeint)
+        }
+
+        #header-img{
+            display: none;
+        }
+
+        /* HEADER STYLES */
+        header{
+            position: static;
+            height: 195px;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+        }
+
+        header, footer{
+            background-color: var(--blue);
+            width: 100%;
+        }
+
+        header img{
+            height: auto;
+            width: 85px;
+            margin-bottom: 20px;
+        }
+
+        .logo-header{
+            padding: auto;
+            position: relative;
+        }
+
+        /* NAVBAR STYLES */
+        .desktop-navbar{
+            float: right;
+        }
+
+        li {
+            list-style: none;
+            padding: 8px 12px;
+        }
+
+        .desktop-navbar ul li a{
+            text-decoration: none;
+            padding: 19px;
+            width: auto;
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .desktop-navbar ul li a:hover{
+            background-color: var(--text-gold);
+            color: var(--blue);
+            transition: .6s;
+        }
+
+        nav ul li{
+            border: none;
+            display: inline-block;
+        }
+
+        .desktop-navbar a{
+            color: var(--text-gold);
+            font-family: var(--saira-text);
+            font-weight: bold;
+        }
+
+        /* PLAY-BUTTON STYLES */
+
+        .desktop-navbar button{
+            font-family: var(--saira-text);
+            font-weight: bold;
+            color: var(--blue);
+        }
+
+        /* TEXT STYLES */
+        .league{
+        color: var(--text-gold);
+        }
+
+        #sample{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: var(--text-gold);
+            font-family: var(--saira-text);
+            font-size: 4em;
+            text-align: center;
+        }
+
+        .gold-header{
+            color: var(--text-gold);
+        }
+
+        #favorite{
+            color: var(--text-gold);
+        }
+
+        /* STYLES FOR MAIN CONTENT IMAGES */
+        .lanes{
+            width: 400px;
+            height: 340px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .champs{
+            width: 400px;
+            height: 340px;
+            float: right;
+            margin-left: 20px;
+        }
+
+        /* STYLES FOR VIDEO */
+        .sample-vid{
+            display: block;
+            margin: auto;
+            height: 400px;
+        }
+
+        /* MAIN CONTENT STYLES */
+        main{
+            max-height: 100%;
+        }
+
+        .content-desktop{
+            padding: 10%;
+        }
+
+        #content-1{
+            margin: 1px auto;
+            margin-bottom: 100px;
+            width: 90%;
+        }
+
+        .what{
+            color: var(--black);
+            font-family: var(--saira-text);
+            font-weight: bolder;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        #info-1{
+            font-family: var(--inter-text);
+            font-size: 25px;
+        }
+
+        .content-2{
+            margin: 1px auto;
+            margin-bottom: 60px;
+            width: 90%;
+        }
+
+        .pool{
+            color: var(--black);
+            font-family: var(--saira-text);
+            font-weight: bolder;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        #info-2{
+            font-family: var(--inter-text);
+            font-size: 25px;
+            text-align: left;
+        }
+
+        .content-2 dt dd{
+            text-align: right;
+        }
+        
+        /* STYLES FOR TABLE */
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            align-items: center;
+            margin: 0 30px;
+            margin-bottom: 35px;
+        }
+
+        caption{
+            color: var(--black);
+            font-family: var(--saira-text);
+            font-weight: bolder;
+            font-size: 3.5em;
+        }
+
+        th{
+            height: 100px;
+            color: var(--text-gold);
+            font-family: var(--inter-text);
+            font-weight: bolder;
+            font-size: 25px;
+        }
+
+        td{
+            height: 100px;
+            width: 380px;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: var(--inter-text);
+            font-weight: bolder;
+            font-size: 25px;
+        }
+
+        /* FOOTER STYLES */
+        footer{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 120px;
+        }
+
+        footer h1{
+            margin-top: 10px;
+            text-align: left;
+            padding-left: 14%;
+            font-family: var(--saira-text);
+            font-size: 30px;
+            font-weight: bolder;
+            color: white;
+        }
+
+        .sett{
+            color: var(--text-gold);
+        }
+
+        .socials{
+            float: right;
+            padding-right: 14%;
+        }
+
+        footer p{
+            margin-top: 8px;
+            color: var(--white);
+            font-family: var(--saira-text);
+            font-weight: bold;
+        }
+
+        /* FOOTER IMAGES STYLES */
+        footer img{
+            max-width: 40px;
+            max-height: 40px;
+            text-align: right;
+            margin-top: 15px;
+        }
+
+         /* ABOUT US STYLES */
+    #about-us{
+        text-align: center;
+        font-family: var(--saira-text);
+        font-size: 85px;
+        font-weight: bolder;
+        color: var(--text-gold);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header-about{
+        font-family: var(--saira-text);
+        margin-bottom: 10px;
+        color: var(--blue);
+    }
+
+    .purpose, .updates, .contacts{
+        text-align: center;
+        margin-top: 30px;
+        padding-left: 14%;
+        padding-right: 14%;
+        font-family: var(--inter-text);
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .contacts{
+        margin-bottom: 50px;
+    }
+
+    /* FORM STYLES */
+    form{
+        margin-bottom: 20%;
+        font-family: var(--saira-text);
+        font-weight: bold;
+    }
+
+    #form-header{
+        color: var(--text-gold);
+        font-weight: bold; 
+        font-size: 40px;   
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .q1, #q2{
+        color: var(--blue);
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .q1{
+        color: var(--blue);
+        margin-bottom: 10px;
+    }
+
+
+    #radio{
+        text-align: center;
+        padding-left: 22%;
+    }
+
+    #text{
+        padding-left: 16%;
+    }
+
+    #text-box{
+        resize: both;
+        max-height: 180px;
+        max-width: 645px;
+        overflow: auto;
+    }
+
+
+}
+
+/* MOBILE VIEWPORT */
+@media screen and (max-width: 927px), print{
+    /* STYLES FOR MOBILE NAV */
+    .mobile-nav a{
+        color: var(--text-gold);
+        font-family: var(--saira-text), sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 2em;
+        text-decoration: none;
+        padding: 3%;
+        display: block;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: space-between;
+      }
+
+    .mobile-nav a:hover{
+        background-color: var(--text-gold);
+        color: var(--blue);
+        transition: .5s;
+    }
+      
+      .menu-icon {
+        margin-left: auto;
+      }
+
+    .mobile-nav a.menu-icon{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .desktop-navbar, #menu-links{
+        display: none;
+    }
+
+    /* BODY STYLES*/
+    .tablet-desktop{
+        background: var(--gradeint)
+    }
+
+    /* HEADER STYLES */
+    header{
+        position: static;
+        background-size: fill;
+        height: 190px;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    }
+
+    header, footer{
+        background-color: var(--blue);
+        width: 100%;
+    }
+
+    header img{
+        width: 130px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .logo-header{
+        padding: auto;
+        position: relative;
+    }
+
+    /* NAVBAR STYLES */
+    .desktop-navbar{
+        float: right;
+    }
+
+    li {
+        list-style: none;
+        padding: 8px 0px;
+    }
+
+    .desktop-navbar ul li a{
+        text-decoration: none;
+        padding: 19px;
+        width: auto;
+        display: inline-block;
+        font-size: 10px;
+    }
+
+    .desktop-navbar ul li a:hover{
+        background-color: var(--text-gold);
+        color: var(--blue);
+        transition: .6s;
+    }
+
+    nav ul li{
+        border: none;
+        display: inline-block;
+    }
+
+    .desktop-navbar a{
+        color: var(--text-gold);
+        font-family: var(--saira-text);
+        font-weight: bold;
+    }
+
+    /* PLAY-BUTTON STYLES */
+
+    .desktop-navbar button{
+        font-family: var(--saira-text);
+        font-weight: bold;
+        color: var(--blue);
+    }
+
+    /* TEXT STYLES */
+        .league{
+        color: var(--text-gold);
+        }
+    
+        #sample{
+            display: none;
+        }
+    
+        .gold-header{
+            color: var(--text-gold);
+        }
+    
+        #favorite{
+            color: var(--text-gold);
+        }
+    
+        /* STYLES FOR MAIN CONTENT IMAGES */
+        .lanes{
+            display: none;
+        }
+    
+        .champs{
+           display: none;
+        }
+    
+        /* STYLES FOR VIDEO */
+        .sample-vid{
+            display: none;
+        }
+    
+        /* MAIN CONTENT STYLES */
+        main{
+            max-height: 100%;
+        }
+    
+        #content-1{
+            margin: 1px auto;
+            margin-bottom: 50px;
+            width: 90%;
+        }
+    
+        .what{
+            text-align: center;
+            color: var(--black);
+            font-family: var(--saira-text);
+            font-weight: bolder;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+    
+        #info-1{
+            font-family: var(--inter-text);
+            font-size: 18px;
+            text-align: center;
+        }
+    
+        .content-2{
+            margin: 1px auto;
+            margin-bottom: 60px;
+            width: 90%;
+        }
+    
+        .pool{
+            text-align: center;
+            color: var(--black);
+            font-family: var(--saira-text);
+            font-weight: bolder;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+    
+        #info-2{
+            font-family: var(--inter-text);
+            font-size: 18px;
+            text-align: center;
+        }
+        
+        /* STYLES FOR TABLE */
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            align-items: center;
+            margin: 0 auto;
+            margin-bottom: 100px;
+        }
+    
+        caption{
+            color: var(--black);
+            font-family: var(--saira-text);
+            font-weight: bold;
+            font-size: 1.5em;
+            text-align: center;
+        }
+    
+        th{
+            height: 100px;
+            color: var(--text-gold);
+            font-family: var(--inter-text);
+            font-weight: bolder;
+            font-size: 15px;
+        }
+    
+        td{
+            height: 100px;
+            width: 380px;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: var(--inter-text);
+            font-weight: bolder;
+            font-size: 15px;
+        }
+    
+        /* FOOTER STYLES */
+        footer{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 120px;
+        }
+    
+        footer h1{
+           display: none;
+        }
+    
+        .sett{
+            color: var(--text-gold);
+        }
+    
+        .socials{
+            text-align: center;
+            padding-left: 16.5%;
+        }
+    
+        footer p{
+            margin-top: 8px;
+            color: var(--white);
+            font-family: var(--saira-text);
+            font-weight: bold;
+            text-align: center;
+            padding-left: 0%;
+        }
+    
+        /* FOOTER IMAGES STYLES */
+        footer img{
+            max-width: 50px;
+            margin-top: 25px;
+        }
+
+        /* ABOUT US STYLES */
+    #about-us{
+        text-align: center;
+        font-family: var(--saira-text);
+        font-size: 35px;
+        font-weight: bolder;
+        color: var(--text-gold);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header-about{
+        padding-left: 0;
+        font-family: var(--saira-text);
+        margin-bottom: 10px;
+        color: var(--blue);
+    }
+
+    .purpose, .updates, .contacts{
+        text-align: center;
+        margin-top: 30px;
+        padding-left: 14%;
+        padding-right: 14%;
+        font-family: var(--inter-text);
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .contacts{
+        margin-bottom: 20px;
+    }
+
+    /* FORM STYLES */
+    form{
+        display: none;
+    }
+
+    /* OTHER PAGE STYLES */
+    #other-header{
+        text-align: center;
+        margin: 20px 0;
+        font-size: 30px;
+        font-family: var(--saira-text);
+        color: var(--text-gold);
+    }
+
+    #lol-other{
+        padding-left: 15.5%;
+        margin-bottom: 20px;
+        display: inline-block;
+        height: 150px;
+    }
+
+    #valorant{
+        padding-left: 15.5%;
+        margin-bottom: 20px;
+        display: inline;
+        height: 150px;
+    }
+
+    #tft{
+        padding-left: 15.5%;
+        margin-bottom: 20px;
+        display: inline;
+        height: 150px;
+    }
+
+    #rune{
+        padding-left: 15.5%;
+        margin-bottom: 130px;
+        display: inline;
+        height: 150px;
+    }
+}

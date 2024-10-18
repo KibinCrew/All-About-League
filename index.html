@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About League - Home Page</title>
+    <link rel="stylesheet" href="css/styles.min.css" type="text/css"/>
+     <!-- WEBSITE ICON -->
+      <link rel="icon" sizes="192x192" href="images/logo.png">
+</head>
+<body class="tablet-desktop">
+    <!-- HEADER -->
+     <header>
+        <div id="logo-header">
+            <a href="index.html">
+               <img src="images/logo.png">
+            </a>
+        </div>
+
+        <!-- Mobile Nav -->
+		 <nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="other.html">Other</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		 </nav>
+
+        <!-- NAVIGATION AREA -->
+        <nav class="desktop-navbar"> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="other.html">OTHER</a></li>
+                <!-- PLAY NOW BUTTON (redirects to the LoL Page by Riot) -->
+                <li><a class="play-button" target="_blank" href="https://www.leagueoflegends.com/en-ph/">PLAY</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <!--HEADER IMAGE-->
+    <div id="header-img" class="desktop-navbar">
+        <img src="images/LOL.jpg" alt="header image">
+    </div>
+
+    <h1 id="sample">SAMPLE GAMEPLAY</h1>
+
+     <!-- VIDEO -->
+     <video class="sample-vid" width="927" height="550" autoplay loop muted>
+        <source src="videos/clip-1.mp4" type="video/mp4">
+        <source src="videos/clip-1.ogg" type="video/ogg">
+        <p>Your Browser does not support the video type.</p>
+     </video>
+    <!-- MAIN CONTENT -->
+     <main class="content-desktop">
+        <div id="content-1">
+            <img class="lanes" src="images/lanes.jfif" alt="lanes" >
+            <dt class="what">WHAT IS <a class="gold-header">LEAGUE OF LEGENDS?</a></dt>
+            <dd id="info-1">This is a multiplayer online battle arena that was first released in the year 2009. A game, in which two teams of five players will try to destroy the enemy's Nexus. Players control unique champions with different abilities and choose to play in one of three lanes: Top, Mid, or Bot, and one player roams the Jungle. The teams need to destroy towers, secure their objectives, and dominate the map. With deep strategic gameplay mixed with constant updates, this game remains a favorite for both casual and professional e-sport arenas around the world.</dd>
+        </div>
+
+        <div class="content-2">
+            <img class="champs" src="images/champions.jpg" alt="champions">
+            <dt class="pool"><a class="gold-header">LARGE</a> CHAMPION POOL</dt>
+            <dd id="info-2">League of Legends has a total vast champion pool of over 160 unique champions to choose from, which means the game will always feel different and strategic with every play. Because different champions have different abilities, play styles, and are capable of filling different roles, the game really is very fun to play. Players can opt for damage dealers, protectors, or even champions that can control the battlefield to carry out their preferred style of gameplay. All this variety offers an enormous number of possible team compositions and strategies to keep things dynamic and challenging.</dd> 
+        </div>
+
+        <!-- TABLE SECTION -->
+         <div class="dektop-table">
+            <table>
+                <caption>ALL TIME <a id="favorite">FAVORITE TEAM</a></caption>
+                <tr><!-- ROW 1 -->
+                    <th>SKT T1</th>
+                    <th>LANES</th>
+                    <th>DATE JOINED</th>
+                </tr>
+                <tr><!-- ROW 2 -->
+                    <td>faker</td>
+                    <td>middle laner</td>
+                    <td>2013 - present</td>
+                </tr>
+                <tr><!-- ROW 3 -->
+                    <td>oner</td>
+                    <td>jungler</td>
+                    <td>2020 - present</td>
+                </tr>
+                <tr><!-- ROW 4 -->
+                    <td>zeus</td>
+                    <td>top laner</td>
+                    <td>2020 - present</td>
+                </tr>
+                <tr><!-- ROW 5 -->
+                    <td>gumayusi</td>
+                    <td>bottom laner</td>
+                    <td>2020 - present</td>
+                </tr>
+                <tr><!-- ROW 6 -->
+                    <td>keria</td>
+                    <td>support</td>
+                    <td>2020 - present</td>
+                </tr>
+            </table>
+         </div>
+    </main>
+
+        <footer>
+            <!-- SOCIALS LOGOS -->
+            <div class="socials">
+                <a href="https://www.facebook.com/kevin.galang.3762/" target="_blank" id="facebook">
+                    <img src="images/facebook-logo.jpg" alt="facebook logo">
+                </a>
+                <a href="https://www.instagram.com/kibincrew/" target="_blank" id="instagram">
+                    <img src="images/instagram-logo.jpg" alt="instagram logo">
+                </a>
+                <p>ALL RIGHTS RESERVED KEVIN GALANG 2024</p>
+             </div>
+            <h1>READY TO <a class="sett">SETT</a> THE</h1>
+            <h1>STAGE?</h1>
+        </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
